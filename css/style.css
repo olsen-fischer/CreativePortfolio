@@ -135,9 +135,7 @@ body.light .contact .contactform textarea {
   border: 1px solid #ddd;
   color: #666;
 }
-.intro{
 
-}
 body.light .contact  ul.social li a {
   color: #666;
   background: #eee;
@@ -607,8 +605,6 @@ body.light hr.separator {
   }
 }
 
-/* [ Pages ] */
-/*================================================== */
 
 /*** Homepage ***/
 
@@ -643,7 +639,7 @@ body.light hr.separator {
 }
 
 .home .home-details > div {
-  max-width: 550px;
+  max-width: 680px;
   margin: 0 auto;
 }
 
@@ -667,8 +663,8 @@ body.light hr.separator {
 }
 
 .home .home-details h1 .intro {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 500;
   opacity: .8;
   padding-left: 0;
 }
