@@ -135,7 +135,9 @@ body.light .contact .contactform textarea {
   border: 1px solid #ddd;
   color: #666;
 }
+.intro{
 
+}
 body.light .contact  ul.social li a {
   color: #666;
   background: #eee;
@@ -646,7 +648,7 @@ body.light hr.separator {
 }
 
 .home .home-details h1 {
-  font-size: 46px;
+  font-size: 45px;
   line-height: 62px;
   font-weight: 700;
   margin: 18px 0 10px;
@@ -662,6 +664,13 @@ body.light hr.separator {
   height: 4px;
   width: 40px;
   border-radius: 10px;
+}
+
+.home .home-details h1 .intro {
+  font-size: 28px;
+  font-weight: 600;
+  opacity: .8;
+  padding-left: 0;
 }
 
 .home .home-details h1 span {
