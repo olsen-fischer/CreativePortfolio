@@ -223,6 +223,21 @@
 
 	window.Revealer = Revealer;
 
+	var linkPortfolio = document.getElementById('link-portfolio');
+if (linkPortfolio) {
+    linkPortfolio.addEventListener('click', function(e) {
+        e.preventDefault();
+        revealer.reveal('right', 600, function() {
+            // Hide all pages
+            document.querySelectorAll('.page').forEach(function(p) {
+                p.classList.remove('page--current');
+            });
+            // Show portfolio page
+            document.getElementById('portfolio').classList.add('page--current');
+        });
+    });
+}
+
 })(window);
 
 			
